@@ -1,0 +1,23 @@
+
+.bg_azul {
+    background: linear-gradient(#18acfe, #0166e1);
+}
+
+.fas {
+    font-size: 35px;
+    padding-left: 80px;
+}
+
+.tanho-logo {
+    height: 80px;
+    width: 100px;
+}
+
+
+.nav-text {
+    padding-left: 80px;
+}
+
+.tamanho-fonte {
+    font-size: 30px;
+}

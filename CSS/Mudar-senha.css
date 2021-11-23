@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cor-fundo {
+    background: linear-gradient(#18acfe, #0166e1);
+}
+
+.fa-google-plus-square {
+    color: black;
+    font-size: 30px;
+}  
+
+.fa-google-plus-square:hover {
+    color: red;
+    font-size: 40px;
+}
+
+.fa-linkedin {
+    color: black;
+    font-size: 30px;
+}
+.fa-linkedin:hover {
+    color: DeepSkyBlue;
+    font-size: 40px;
+}
+
+.fa-facebook-square {
+    color: black;
+    font-size: 30px;
+}
+.fa-facebook-square:hover {
+    color: blue;
+    font-size: 40px;
+}
+
+.fa-eye {
+    right: 11%;
+    bottom: 50%;
+}
+.fa-eye-slash {
+    right: 11%;
+    bottom: 50%;
+}
