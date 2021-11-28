@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/carrinho-compras.css">
+    <script src="https://kit.fontawesome.com/1927136617.js" crossorigin="anonymous"></script>
+    <title>S.A ShopCar</title>
+  </head>
+  <body class="bg-light">
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg_azul postion-absolute">
+          
+            <img class=" tanho-logo ml-3" src="Imgens/gvt (1).png">
+            <button class="navbar-toggler icone-menu" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav text-center">
+                <a class="nav-item nav-link text-white" href="#"><i class="fas fa-car"></i><h6 class="nav-text">INICIO</h6></a>
+                <a class="nav-item nav-link text-white" href="#"><i class="fas fa-car-battery"></i><h6 class="nav-text">BATERIA</h6></a>
+                <a class="nav-item nav-link text-white" href="#"><i class="fas fa-air-freshener"></i><h6 class="nav-text ">LIMPEZA</h6></a>
+                <a class="nav-item nav-link text-white" href="#"><i class="fas fa-truck-monster"></i><h6 class="nav-text">PNEUS</h6></a>
+                <a class="nav-item nav-link text-white" href="#"><i class="fas fa-car-crash"></i><h6 class="nav-text">SEGURO</h6></a>
+                <a class="nav-item nav-link text-white" href="#"><i class="fas fa-user-circle"></i><h6 class="nav-text">USUARIO</h6></a>
+                <div class="pt-3">
+                  <button type="button" class="btn btn-outline-light ml-5"><b>Carrinho de Compras</b></button>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="container">
+
+        <div class="col-9 bg-white rounded mt-5 p-5">
+            <section>
+                <h1 class="text-secondary">Carrinho</h1>
+                <hr>
+            </section>
+
+            <section class="pt-5 pb-5 pl-3">
+                
+             <div class=" border border-primary p-2 rounded row shadow">
+                 <div class="">
+                   <img class="rounded-circle ml-3" src="https://gqled.com.br/wp-content/uploads/2020/03/PNG-LED.png" height="150px" width="150px">
+                  </div>
+
+                  <div>
+                    <h4 class="pl-3">Farol Vitus 2017 - 2019 Led R-line</h4>
+                    <h5 class="pl-3 text-danger" id="valor1" value='4690'>R$ 4690,00</h5>
+                    <small class="text-secondary pl-3">Produto em estoque</small>
+
+                    <div class="">
+                        <input id="quantidade1" class="ml-3 mt-2 rounded border-primary shadow bg-light" type="number" min="1" max="9" placeholder="Qtd:">
+                        <a class="pl-3" href="#">| Excluir</a>
+                        <a class="pl-3" href="">| Salvar para mais tarde</a>
+                    </div>
+                  </div>
+                    
+             </div>
+
+             <div class=" border border-primary p-2 rounded row shadow mt-3">
+                <div class="">
+                  <img class="rounded-circle ml-3" src="https://images-americanas.b2w.io/produtos/01/00/image/77458/6/77458656_1GG.jpg" height="150px" width="150px">
+                 </div>
+
+                 <div>
+                   <h4 class="pl-3">Farol Cruze 2017 até 2020</h4>
+                   <h5 class="pl-3 text-danger" id="valor2" value='1100'>R$ 1100,00</h5>
+                   <small class="text-secondary pl-3">Produto em estoque</small>
+
+                   <div class="">
+                       <input id="quantidade2" class="ml-3 mt-2 rounded border-primary shadow bg-light" type="number" min="1" max="9" placeholder="Qtd:">
+                       <a class="pl-3" href="#">| Excluir</a>
+                       <a class="pl-3" href="">| Salvar para mais tarde</a>
+                   </div>
+                 </div>
+                   
+            </div>
+
+            <div class=" border border-primary p-2 rounded row shadow mt-3">
+                <div class="">
+                  <img class="rounded-circle ml-3" src="https://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1732160914" height="150px" width="150px">
+                 </div>
+
+                 <div>
+                   <h4 class="pl-3">Farol Vitus 2017 - 2019 Led R-line</h4>
+                   <h5 class="pl-3 text-danger" id="valor3" value='975'>R$ 974,59</h5>
+                   <small class="text-secondary pl-3">Produto em estoque</small>
+
+                   <div class="">
+                       <input id="quantidade3" class="ml-3 mt-2 rounded border-primary shadow bg-light" type="number" min="1" max="9" placeholder="Qtd:">
+                       <a class="pl-3" href="#">| Excluir</a>
+                       <a class="pl-3" href="">| Salvar para mais tarde</a>
+                   </div>
+                 </div>
+                   
+            </div>
+            </section>
+            <hr>
+
+            <section class="pt-3 row">
+                <h2>Valor:</h2>
+                <h2 class="pl-3 text-danger" id="valortotal">R$ 6764,59</h2>
+            </section>
+
+            <section>
+                <div class="col-12 text-center pt-5">
+                    <button  type="button" class="btn btn-outline-danger w-100">Fechar Pedido</button>
+                </div>
+            </section>
+        </div>
+
+    </section>
+    
+
+
+
+
+
+
+    <footer class="mt-5 bg-dark w-100">
+        <div class="container pt-3">
+          <h5 class="text-white text-center ">Frete gratis com produtos acima de R$ 250,00<i class="fas fa-truck"></i></h5>
+          <div class="text-center text-white">
+            <i class="fab fa-cc-mastercard tamanho-fonte p-3"></i>
+            <i class="fab fa-cc-visa tamanho-fonte p-3"></i>
+            <i class="fab fa-cc-amex tamanho-fonte p-3"></i>
+            <i class="fab fa-cc-paypal tamanho-fonte p-3"></i>
+            <i class="fab fa-cc-apple-pay tamanho-fonte p-3"></i>
+            <i class="fab fa-cc-amazon-pay tamanho-fonte p-3"></i>
+            <i class="fab fa-google-pay tamanho-fonte p-3"></i>
+          </div>
+        
+        </div>
+        
+        <hr color="white">
+  
+        <div class="container">
+          <div class="row">
+            <a class="p-3 text-white" href=""><b>Atendimento personalizado</b></a>
+            <a class="p-3 text-white" href=""><b>Curriculos</b></a>
+            <a class="p-3 text-white" href=""><b>Reclamacões</b></a>
+            <a class="p-3 text-white" href=""><b>Informacões sobre pedido</b></a>
+            <a class="p-3 text-white" href=""><b>Sobre</b></a>
+            <a class="p-3 text-white" href=""><b>E-mail para contato</b></a>
+          </div>
+        </div>
+        
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="Js/carrinho-compras.js"></script>  
+</body>
+</html>
